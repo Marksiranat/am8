@@ -34,7 +34,7 @@
       <div class="row">
         <div class="col-3 m-5" v-for="user in userData" :key="user.id">
           <div class="card mt-3" style="width: 18rem">
-            <img :src="user.show.image.original" class="card-img-top" alt="..." />
+            <img :src="user.show.image.medium" class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
                 *NAME* : {{ user.show.name }} <br />
